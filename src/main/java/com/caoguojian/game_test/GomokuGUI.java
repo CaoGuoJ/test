@@ -10,6 +10,12 @@ public class GomokuGUI extends JFrame {
     private char currentPlayer = 'X';
     private boolean gameWon = false;
 
+
+
+    public void printBoard() {
+        System.out.println(board);
+    }
+
     public GomokuGUI(int size) {
         board = new GomokuBoard(size);
 
