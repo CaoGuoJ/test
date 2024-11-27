@@ -13,6 +13,7 @@ public class GomokuGUI extends JFrame {
     public GomokuGUI(int size) {
         board = new GomokuBoard(size);
 
+
         setTitle("五子棋游戏");
         setSize(600, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
